@@ -1,10 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "File Reader",
-  "version": "1.0",
-  "permissions": ["storage", "activeTab"],
+  "name": "WDOC File Reader",
+  "version": "0.1",
+  "permissions": ["activeTab"],
   "host_permissions": ["<all_urls>"],
   "action": {
-    "default_popup": "popup.html"
-  }
+    "default_title": "Open WDOC Viewer",
+    "default_popup": "app.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["libs/jszip.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
