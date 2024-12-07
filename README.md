@@ -22,9 +22,11 @@ WDOC files are just a zip archive containing an `index.html` as the starting poi
 
 1.  **HTML Inside**: Put all HTML content in a zip file with a `.wdoc` extension.
 2.  **Paginated Content**: For print-ready, paginated documents, encapsulate content using:
-    `<section class="wdoc_page" format="A4">
-    <!-- Your content here -->
-    </section>`
+    ```
+    <section class="wdoc_page" format="A4">
+    <!-- Your page content here -->
+    </section>
+    ```
 
 # WDOC limitations
 To ensure security and simplicity, some restrictions are in place:
