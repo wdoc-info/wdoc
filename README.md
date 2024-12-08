@@ -42,14 +42,14 @@ To ensure security and simplicity, some restrictions are in place:
 
 For WDOC to become a real alternative to PDF, here’s what we’ll need:
 
-- [] An app on each platform to read and eadit wdoc files (maybe fork later on ligthweight reader + bigger editor) - flutter seems to be a good candidate for that
-- [] An importer of pdf and word docs to cuckoo nest existing document solutions
-- [] A spec validator to ensure cross-browser rendering fidelity and guarantee WYSIWYG consistency + doc specs.
-- [] Form handling with data storage/extraction, and support for file uploads (imagine docs containing other docs—wild).
-- [] Password protection (e.g., encrypt the file and include a manifest.json for metadata).
-- [] Document authenticity validation (self signed and public store of document hash / public key with )
-- [] E-signature (maybe for this a company side of the spec to timestamp and validate signature)
-- [] A serious push to build awareness and adoption. The usual chicken-and-egg problem applies.
+- [ ] An app on each platform to read and eadit wdoc files (maybe fork later on ligthweight reader + bigger editor) - flutter seems to be a good candidate for that
+- [ ] An importer of pdf and word docs to cuckoo nest existing document solutions
+- [ ] A spec validator to ensure cross-browser rendering fidelity and guarantee WYSIWYG consistency + doc specs.
+- [ ] Form handling with data storage/extraction, and support for file uploads (imagine docs containing other docs—wild).
+- [ ] Password protection (e.g., encrypt the file and include a manifest.json for metadata).
+- [ ] Document authenticity validation (self signed and public store of document hash / public key with )
+- [ ] E-signature (maybe for this a company side of the spec to timestamp and validate signature)
+- [ ] A serious push to build awareness and adoption. The usual chicken-and-egg problem applies.
 
 # Devs Will Prevail 💪
 
