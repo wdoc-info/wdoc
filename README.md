@@ -42,7 +42,7 @@ To ensure security and simplicity, some restrictions are in place:
 
 For WDOC to become a real alternative to PDF, here’s what we’ll need:
 
-- [] An app on each platform to read and eadit wdoc files (maybe fork later on ligthweight reader + bigger editor)
+- [] An app on each platform to read and eadit wdoc files (maybe fork later on ligthweight reader + bigger editor) - flutter seems to be a good candidate for that
 - [] An importer of pdf and word docs to cuckoo nest existing document solutions
 - [] A spec validator to ensure cross-browser rendering fidelity and guarantee WYSIWYG consistency + doc specs.
 - [] Form handling with data storage/extraction, and support for file uploads (imagine docs containing other docs—wild).
