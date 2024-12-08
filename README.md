@@ -33,7 +33,7 @@ WDOC files are just a zip archive containing an `index.html` as the starting poi
 
 To ensure security and simplicity, some restrictions are in place:
 
-- **No JavaScript**: We need a plugin system but want to avoid turning documents into malware breeding grounds.
+- **No JavaScript**: We need a plugin system but want to avoid turning documents into malware and advertisement breeding grounds.
 - **No External CSS**: All styles should be self-contained within the zip file.
 - **Image Validation**: Users should approve external images to prevent pixel tracking.
 - **Font Support**: A limited set of fonts, with the option to import from trusted sources like Google Fonts.
@@ -42,34 +42,17 @@ To ensure security and simplicity, some restrictions are in place:
 
 For WDOC to become a real alternative to PDF, here’s what we’ll need:
 
-### Platform Support:
-
-- [] A web app to read wdoc files
-- [] If we can intercept wdoc files in the browser: Extensions for:
-  - [] Chrome
-  - [] Safari
-  - [] Microsoft Edge
-- [] Apps for iOS and Android
-
-### Creation Tools:
-
-- [] A WYSIWYG editor for macOS, Windows, and Linux.
-
-### Validation Tools:
-
-- [] A spec validator to ensure cross-browser rendering fidelity and guarantee WYSIWYG consistency.
-
-### Additional Features:
-
+- [] An app on each platform to read and eadit wdoc files (maybe fork later on ligthweight reader + bigger editor)
+- [] An importer of pdf and word docs to cuckoo nest existing document solutions
+- [] A spec validator to ensure cross-browser rendering fidelity and guarantee WYSIWYG consistency + doc specs.
 - [] Form handling with data storage/extraction, and support for file uploads (imagine docs containing other docs—wild).
 - [] Password protection (e.g., encrypt the file and include a manifest.json for metadata).
-
-### Marketing:
-
+- [] Document authenticity validation (self signed and public store of document hash / public key with )
+- [] E-signature (maybe for this a company side of the spec to timestamp and validate signature)
 - [] A serious push to build awareness and adoption. The usual chicken-and-egg problem applies.
 
 # Devs Will Prevail 💪
 
-Let’s face it—business owners and stakeholders don’t care about file formats. PDFs "work" for them.
+Let’s face it, business owners and stakeholders don’t care about file formats. PDFs "work" for them.
 
 But for developers, the struggle is real. WDOC is our chance to take back control. It won’t be easy, but with a community of passionate devs, we can make it happen.
