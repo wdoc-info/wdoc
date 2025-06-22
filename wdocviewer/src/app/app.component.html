@@ -3,7 +3,9 @@
     <div class="title">WDOC viewer</div>
     <input type="file" (change)="onFileSelected($event)" accept=".wdoc" />
   </nav>
-  <div *ngIf="htmlContent" #contentContainer>
-    <div [innerHTML]="htmlContent"></div>
-  </div>
+  @if (htmlContent) {
+    <div #contentContainer>
+      <div [innerHTML]="htmlContent"></div>
+    </div>
+  }
 </div>
